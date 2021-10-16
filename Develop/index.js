@@ -43,7 +43,7 @@ inquirer
       type: 'list',
       message: 'What is the license for your project?',
       name: 'license',
-      choices: ['MIT', 'GNU GPLv3']
+      choices: ['MIT', 'GNU GPLv3', 'none']
     },
     {
         type: 'input',
@@ -71,7 +71,7 @@ inquirer
     });
 
 // TODO: Create a function to initialize app
-//function init() {}
+// function init() {}
 
 // Function call to initialize app
 // init();
